@@ -1,0 +1,137 @@
+body{
+    background-color: black;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* FONT SITO WEB  */
+h3{
+    font-family: 'Univers', sans-serif;
+    font-weight: 400;                                             
+}
+h2{
+    font-family: 'Univers', sans-serif;
+    font-weight: 300;
+}
+a{
+    font-family: 'Univers', sans-serif;
+    font-weight: 300;
+}
+h1{
+    font-family: 'Univers', sans-serif;
+    font-weight: 400;
+}
+/* Fine Font Sito Web  */
+
+/* Disposizione Sito  */
+.impaginazione{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.disposizione-testo{
+    display: flex;
+}
+.linea-testo{
+    border-bottom: 2px solid red;
+    padding-bottom: 7px;
+}
+/* Fine Disposizione Sito */
+
+/* Inizio Navbar  */
+.navbar{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-opposta{
+    display: flex;
+}
+/* Fine Navbar  */
+
+/* Disposizione dei Paragrafi  */
+.titolo{
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.paragrafo{
+    height: 500px;
+    width: 850px;
+    font-size: 20px;
+}
+.paragrafo h2{
+    font-size: 50px;
+    width: 700px;
+    
+}
+.linea-paragrafo{ 
+    width: 650px;
+    border-bottom: 3px solid red;  
+}
+.disposizione{
+    display: flex;
+    justify-content: end;
+}
+/* Fine Disposizione Paragrafi  */
+
+/* Paragrafi Speciali  */
+.img{
+    height: 300px;
+    width: 300px;
+    background-image: url(Svorgan.jpg);
+    background-size: cover;
+}
+.img-text{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.disposizione-img{
+    display: flex;
+    justify-content: end;
+}
+.paragrafo-img{
+    height: 650px;
+    width: 850px;
+    font-size: 20px;
+}
+.paragrafo-img h2{
+    font-size: 50px;
+}
+/* Fine Paragrafi Speciali  */
+
+/* Riepilogo  */
+.elenco{
+    text-align: start;
+    height: 300px;
+}
+.elenco h3{
+ margin-left: 98px;
+}
+.riepilogo{
+    font-size: 30px;
+}
+/* Fine Riepilogo  */
+
+/* Footer  */
+.footer{
+    font-size: 30px; 
+}
+a{ 
+    text-decoration: none;
+    color: red; 
+}
+.scritte{
+    height: 500px;
+    border-top: 3px solid red ;
+}
+.linea-scritte{
+    margin-top: 60px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid red;
+}
+/* Fine Footer  */
